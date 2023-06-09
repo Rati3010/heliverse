@@ -2,12 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import {
   Image,
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
   StyleSheet,
-  Text,
-  useColorScheme,
   View,
 } from 'react-native';
 
@@ -55,10 +50,10 @@ const App = () => {
         style={styles.background}
         source={require('./assets/images/award_bg.png')}
       />
-    {renderComponent()}
+      {renderComponent()}
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   background: {
